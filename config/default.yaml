@@ -1,0 +1,6 @@
+agent:
+  name: Squire
+  model: gemma3:1b
+knowledge-db:
+  host: localhost
+  port: 8000
