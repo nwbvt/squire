@@ -1,6 +1,11 @@
 agent:
   name: Squire
-  model: gemma3:1b
+  model: qwen3:1.7b
+  instructions: >
+    You are a reasoning chatbot.
+    Include specific source links for any information you give.
+    If you don't know the answer, say you don't know.
+    Keep answeers reasonably short.
 knowledge-db:
   host: localhost
   port: 8000
