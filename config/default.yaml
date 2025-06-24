@@ -8,7 +8,9 @@ agent:
     Keep answeers reasonably short.
 db:
   host: localhost
-  port: 8000
-  schema: squire
+  port: 5432
+  db: squire
+  creds:
+    user: squire
 memory:
   model: qwen3:1.7b
